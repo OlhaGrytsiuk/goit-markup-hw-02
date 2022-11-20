@@ -1,0 +1,82 @@
+.page {
+    background-color: #FFFFFF;
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    
+
+}
+
+.page-header {
+    
+
+}
+
+.logo {
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    
+}
+
+span {
+    color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.contacts .link {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: #2196F3;
+}
+
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.hero-button {
+    background: #2196F3;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+h2, h3 {
+    color: #212121;
+}
+
