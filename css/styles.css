@@ -1,10 +1,10 @@
-.page {
+body {
     background-color: #FFFFFF;
     color: #757575;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    
+
 
 }
 
@@ -43,6 +43,10 @@ ul {
     color: #2196F3;
 }
 
+.site-nav .link.currrent {
+    color: #2196F3;
+}
+
 .contacts .link {
     color: #757575;
     font-size: 14px;
@@ -76,7 +80,22 @@ ul {
     cursor: pointer;
 }
 
-h2, h3 {
+h2 {
     color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+
+}
+
+h3 {
+    color: #212121;   
+}
+address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
 }
 
