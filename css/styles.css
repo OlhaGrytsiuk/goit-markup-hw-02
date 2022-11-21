@@ -4,38 +4,36 @@ body {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-
-
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
-.page-header {
-    
-
+.list {
+    list-style: none;
 }
 
 .logo {
     color: #000000;
     font-family: 'Raleway';
     font-style: normal;
-    font-size: 26px;
     font-weight: 700;
-    line-height: 31px;
-    
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
 }
 
-span {
+.article {
     color: #2196F3;
-}
-
-ul {
-    list-style: none;
 }
 
 .site-nav .link {
     color: #212121;
-    font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -49,9 +47,11 @@ ul {
 
 .contacts .link {
     color: #757575;
-    font-size: 14px;
     font-weight: 500;
-    line-height: 16px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts .link:hover,
@@ -67,7 +67,9 @@ ul {
     color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
@@ -76,26 +78,78 @@ ul {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 
-h2 {
+.advantages-subtitle {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.work-title, .team-title {
     color: #212121;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
-
+    line-height: 1.17;
+    text-align: center;
 }
 
-h3 {
-    color: #212121;   
+.team-subtitle {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
-address {
+
+.footer-page {
+    background: #2F303A;
+}
+
+.logo-second {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.footer-contacs .link {
+    color: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
+.project-button {
+    background: #F5F4FA;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    cursor: pointer;
+}
+
+.project-items .project-button:hover, 
+.project-items .project-button:focus {
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.project-subtitle {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
