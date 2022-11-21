@@ -43,7 +43,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -61,7 +60,6 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.02em;
     text-decoration: none;
 }
 
@@ -80,17 +78,16 @@ body {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 
 .hero-button {
+    font-family: inherit;
     background: var(--accent-color);
     color: var(--main-light-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    letter-spacing: 0.06em;
     cursor: pointer;
 }
 
@@ -137,7 +134,7 @@ body {
 
 .logo-second {
     color: var(--main-light-color);
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -147,12 +144,10 @@ body {
 
 .footer-contacs .link {
     color: var(--footer-contacs-color);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -164,9 +159,8 @@ body {
 
 .footer-contacs .links {
     color: var(--main-light-color);
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -176,7 +170,7 @@ body {
 }
 
 .project-button {
-    font-family: 'Roboto';
+    font-family: inherit;
     font-style: normal;
     background: var(--team-bgr-color);
     color: var(--second-font-color);
@@ -197,7 +191,11 @@ body {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
-    letter-spacing: 0.06em;
+}
+
+.project-desk {
+    font-size: 16px;
+    line-height: 1.875;
 }
 
 .visually-hidden {
